@@ -13,7 +13,7 @@ export default function AppContainer() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="md">
-        <Paper className={styles.container} style={{ height: vh }}>
+        <Paper className={styles.container} style={{ height: vh }} elevation={12}>
           <Box className={styles.page}>
             <AddPage />
           </Box>

@@ -7,7 +7,7 @@ import Keyboard from '../../components/KeyBoard';
 
 const AddPage: FC = () => {
   return (
-    <Paper className={styles.container}>
+    <Paper className={styles.container} elevation={0}>
       <Box className={styles.type}>
         <TypeSelector />
       </Box>
